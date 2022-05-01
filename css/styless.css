@@ -1,0 +1,209 @@
+
+.logo {
+    font-family: 'Raleway' 700;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-accent{
+    color: black;
+}
+
+.link{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+text-decoration: none;
+}
+.header-groop{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+}
+.mail{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+text-decoration: none;
+}
+.telefon{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-decoration: none;
+}
+
+
+
+
+
+.decision-text{
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.button{
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.work-item{
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.work-text{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.name-img{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-name{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.team-position{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+
+
+
+
+
+.header{
+    background-color: #FFFFFF;
+}
+.body{
+    background-color: #E5E5E5;
+}
+.work{
+background-color: #E5E5E5;
+}
+.name-img{
+background-color: #E5E5E5;
+}
+.decision {
+    background-color: #2F303A;
+}
+
+.team-photo{
+    background-color: #F5F4FA;
+    }
+.footer{
+background-color: #2F303A;
+}
+.footer-maps{
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-mail{
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.footer-telefon{
+font-family: 'Roboto';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+
+.button-list{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+
+}
+.list-container{
+Font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: #212121;
+text-decoration: none;
+}
+.list-text{
+font-family: 'Roboto';
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+color: #757575;
+text-decoration: none;
+}

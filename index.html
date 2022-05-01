@@ -5,14 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--Project Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Project Styles-->
+    <link rel="stylesheet" href="./css/styless.css" />
   </head>
   <body>
     <header class="header">
-      <a class="WebStudio" href="">WebStudio</a>
+      <a class="logo" href="" lang="en"
+        >Web <span class="logo-accent">Studio</span>
+      </a>
       <nav class="navigation">
         <ul class="list">
           <li class="item"><a class="link" href="">Студия</a></li>
-          <li class="item"><a class="link" href="">Портфолио</a></li>
+          <li class="item">
+            <a class="link" href="./portfolio.html">Портфолио</a>
+          </li>
           <li class="item"><a class="link" href="">Контакты</a></li>
         </ul>
       </nav>
@@ -30,28 +49,28 @@
         <ul class="work">
           <li class="work-item">
             <h3>Внимание к деталям</h3>
-            <p>
+            <p class="work-text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="work-item">
             <h3>Пунктуальность</h3>
-            <p>
+            <p class="work-text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="work-item">
             <h3>Планирование</h3>
-            <p>
+            <p class="work-text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li class="work-item">
             <h3>Современные технологии</h3>
-            <p>
+            <p class="work-text">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -82,7 +101,7 @@
           </li>
         </ul>
       </section>
-      <section class="team">
+      <section class="team-list">
         <h2 class="team">Наша команда</h2>
         <ul class="team-information">
           <li class="team-photo">
@@ -92,8 +111,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-name">Игорь Демьяненко</h3>
+            <p class="team-position">Product Designer</p>
           </li>
           <li class="team-photo">
             <img
@@ -102,8 +121,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-name">Ольга Репина</h3>
+            <p class="team-position">Frontend Developer</p>
           </li>
           <li class="team-photo">
             <img
@@ -112,8 +131,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-name">Николай Тарасов</h3>
+            <p class="team-position">Marketing</p>
           </li>
           <li class="team-photo">
             <img
@@ -122,18 +141,21 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-name">Михаил Ермаков</h3>
+            <p class="team-position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a class="WebStudio" href="">WebStudio</a>
+      <a class="logo" href="" lang="en"
+        >Web <span class="logo-accent">Studio</span>
+      </a>
       <address>
         <ul>
           <li>
             <a
+              class="footer-maps"
               href="https://bit.ly/3pXMvUd"
               target="_blank"
               rel="noopener noreferrer"
@@ -141,11 +163,15 @@
             >
           </li>
           <li>
-            <a class="link" href="mailto:info@devstudio.com"
+            <a class="footer-mail" href="mailto:info@devstudio.com"
               >info@example.com</a
             >
           </li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="footer-telefon" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
