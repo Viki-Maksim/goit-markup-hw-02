@@ -1,6 +1,20 @@
 .body {
 font-family: inherit:'Roboto';
 }
+.body
+:root{
+ color: #757575; 
+}
+
+
+
+
+
+
+
+
+
+
 .header {
   background-color: #ffffff;
 }
@@ -154,11 +168,17 @@ color: #212121;
   letter-spacing: 0.03em;
   color: #757575;
 }
+.list-link{
+  text-decoration: none;
+}
 .footer {
   background-color: #2f303a;
 }
 .address-list {
   list-style-type: none;
+}
+.address{
+font-style: normal;
 }
 .footer-maps {
   font-size: 14px;
@@ -184,6 +204,7 @@ color: #212121;
 .button-list {
   font-weight: 500;
   font-size: 16px;
+ font-family: 'Roboto';
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
