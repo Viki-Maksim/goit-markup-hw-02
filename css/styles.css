@@ -1,19 +1,12 @@
 .body {
-font-family: inherit:'Roboto';
+  font-family: "Roboto" "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 400;
 }
-.body
-:root{
- color: #757575; 
+.body :root {
+  color: #757575;
 }
-
-
-
-
-
-
-
-
-
 
 .header {
   background-color: #ffffff;
@@ -34,6 +27,7 @@ font-family: inherit:'Roboto';
   list-style-type: none;
 }
 .list .link-list {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -48,6 +42,7 @@ font-family: inherit:'Roboto';
   color: #2196f3;
 }
 .header-groop .mail {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -59,15 +54,16 @@ font-family: inherit:'Roboto';
   color: #2196f3;
 }
 .header-groop .mail:focus {
-color: #2196f3;
+  color: #2196f3;
 }
 .header-groop .telefon:hover {
   color: #2196f3;
-  }
+}
 .header-groop .telefon:focus {
   color: #2196f3;
-  }
+}
 .telefon {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -79,6 +75,7 @@ color: #2196f3;
   background-color: #2f303a;
 }
 .decision-text {
+  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -93,36 +90,39 @@ color: #2196f3;
   border-radius: 4px;
 }
 .button {
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.06em;
-color: #FFFFFF;
-cursor: pointer;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
 }
 .button:hover {
-background: tomato;
+  background: tomato;
 }
-.button:focus{
- background: tomato; 
+.button:focus {
+  background: tomato;
 }
 .work-item {
   list-style-type: none;
 }
 
-.work-list{
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #212121; 
+.work-list {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
 }
 
 .work-item .work-text {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -132,6 +132,7 @@ color: #212121;
   list-style-type: none;
 }
 .name-section .name {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -146,6 +147,7 @@ color: #212121;
   list-style-type: none;
 }
 .team {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -154,6 +156,7 @@ color: #212121;
   color: #212121;
 }
 .team-name {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -162,13 +165,14 @@ color: #212121;
   color: #212121;
 }
 .team-position {
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.list-link{
+.list-link {
   text-decoration: none;
 }
 .footer {
@@ -177,10 +181,11 @@ color: #212121;
 .address-list {
   list-style-type: none;
 }
-.address{
-font-style: normal;
+.address {
+  font-style: normal;
 }
 .footer-maps {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -188,6 +193,7 @@ font-style: normal;
   text-decoration: none;
 }
 .footer-mail {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -195,6 +201,7 @@ font-style: normal;
   text-decoration: none;
 }
 .footer-telefon {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -202,9 +209,9 @@ font-style: normal;
   text-decoration: none;
 }
 .button-list {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
- font-family: 'Roboto';
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -219,14 +226,15 @@ font-style: normal;
   background: #2196f3;
 }
 .list-container {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  text-decoration: none;
 }
 .list-text {
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
