@@ -41,7 +41,6 @@ body {
 .list .link-list:focus {
   color: var(---accent-color);
 }
-
 .header-groop .mail {
   font-family: "Roboto";
   font-weight: 500;
@@ -121,7 +120,6 @@ body {
   text-transform: uppercase;
   color: #212121;
 }
-
 .work-item .work-text {
   font-family: "Roboto";
   font-size: 14px;
@@ -188,7 +186,6 @@ body {
 .logo-footer-accent {
   color: #ffffff;
 }
-
 .footer {
   background-color: #2f303a;
 }
