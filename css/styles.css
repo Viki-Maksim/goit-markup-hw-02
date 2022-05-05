@@ -69,7 +69,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--title-text-color)
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .decision {
