@@ -26,10 +26,10 @@ body {
 .item {
   list-style-type: none;
 }
-.list .link-list {
-  font-family: "Roboto";
+.link-list {
+  font-family: inherit;
   font-weight: 500;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -41,10 +41,13 @@ body {
 .list .link-list:focus {
   color: var(---accent-color);
 }
+.current {
+  color: var(---accent-color);
+}
 .header-groop .mail {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -63,9 +66,9 @@ body {
   color: var(---accent-color);
 }
 .telefon {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
@@ -75,7 +78,7 @@ body {
   background-color: #2f303a;
 }
 .decision-text {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -85,12 +88,12 @@ body {
   color: #ffffff;
 }
 .button {
-  background: #2196f3;
+  background: var(---accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 .button {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -102,7 +105,7 @@ body {
   cursor: pointer;
 }
 .button:hover {
-  background-color: blue;
+  background-color: #1c92e9;
 }
 .button:focus {
   background: blue;
@@ -111,32 +114,32 @@ body {
   list-style-type: none;
 }
 .work-list {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .work-item .work-text {
-  font-family: "Roboto";
-  font-size: 14px;
+  font-family: inherit;
+  font-size: inherit;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
 }
 .item-img {
   list-style-type: none;
 }
 .name-section .name {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .team-list {
   background-color: #f5f4fa;
@@ -145,30 +148,30 @@ body {
   list-style-type: none;
 }
 .team {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .team-name {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .team-position {
-  font-family: "Roboto";
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
 }
 .list-link {
   text-decoration: none;
@@ -195,36 +198,36 @@ body {
   font-style: normal;
 }
 .footer-maps {
-  font-family: "Roboto";
-  font-size: 14px;
+  font-family: inherit;
+  font-size: inherit;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
 }
 .footer-maps:hover {
-  color: #2196f3;
+  color: var(---accent-color);
 }
 .footer-maps:focus {
-  color: #2196f3;
+  color: var(---accent-color);
 }
 .footer-mail {
-  font-family: "Roboto";
-  font-size: 14px;
+  font-family: inherit;
+  font-size: inherit;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
 .footer-mail:hover {
-  color: #2196f3;
+  color: var(---accent-color);
 }
 .footer-mails:focus {
-  color: #2196f3;
+  color: var(---accent-color);
 }
 .footer-telefon {
-  font-family: "Roboto";
-  font-size: 14px;
+  font-family: inherit;
+  font-size: inherit;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
@@ -237,13 +240,13 @@ body {
   color: #2196f3;
 }
 .button-list {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--primary-text-color);
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
@@ -257,19 +260,19 @@ body {
   color: #ffffff;
 }
 .list-container {
-  font-family: "Roboto";
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .list-text {
-  font-family: "Roboto";
+  font-family: inherit;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--title-text-color);
   text-decoration: none;
 }
 .list-image {
